@@ -26,14 +26,11 @@ const Auth = () => {
             Email
             </label>
             <input className="border border-[#B6B3C6] p-2.5 rounded-xl outline-none" type="email" placeholder="Enter your email address " required />
-          
-
+        
           <label htmlFor="" className="grid grid-cols-1 gap-1 text-sm text-[#141414] font-medium feat-four">
             Password
             </label>
             <input type="password" className="border border-[#B6B3C6] p-2.5 rounded-xl outline-none" placeholder="Enter your Password" required />
-          
-
           <Link to="" className="p-2.5 border-solid border-brand-blue rounded-md bg-[#120B48] text-4 text-[#F9F9FF] text-center decoration-none cursor-pointer transition-all mt-3">Sign Up</Link>
         </form>
       </section>
