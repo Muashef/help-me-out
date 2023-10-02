@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from '../assets/svg/out-logo.svg'
 import FB from '../assets/svg/fb.svg';
 import ggle from '../assets/svg/ggle.svg'
 
 const Auth = () => {
   return (
-    <main className="relative top-10 w-full flex items-center justify-center pt-6 bg-white">
+    <div className="w-full h-full">
+      <div className="px-8 md:px-20 py-3">
+      <img src={Logo} alt="" />
+      </div>
+    <main className="relative top-10 w-full flex items-center justify-center pt-6 py-16 bg-white">
       <section className="grid grid-cols-1 place-items-center gap-2 w-30%">
         <h1 className="text-[2rem] text-[#141414] font-bold text-center feat-three">Log in or Sign up</h1>
         <p className="text-sm font-normal text-center text-[#141414] mb-4 w-[70%] feat-three">Join millions of others in sharing successful moves on HelpMeOut.</p>
@@ -35,6 +40,7 @@ const Auth = () => {
         </form>
       </section>
     </main>
+    </div>
   );
 };
 
